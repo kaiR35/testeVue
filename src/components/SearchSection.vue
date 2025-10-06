@@ -36,7 +36,7 @@
       <div class="p-3 form-border flex items-center justify-between">
         <div class="flex items-center gap-3">
           <span class="badge">VEÍCULO</span>
-          <Dropdown v-model="local.veiculo" :options="vehicleOptions" optionLabel="label" class="ml-4 w-44"/>
+          <Dropdown v-model="local.veiculo" :options="vehicleOptions" optionLabel="label" class="ml-4 w-30"/>
         </div>
       </div>
 
