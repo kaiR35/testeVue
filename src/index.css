@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom visual tweaks to match reference */
 :root{
   --primary: #0b4c74;
   --badge: #063e59;
