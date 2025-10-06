@@ -7,7 +7,6 @@
           <span class="badge">TRECHO</span>
           <Dropdown v-model="local.trecho" :options="trechoOptions" optionLabel="label"  class="ml-4 w-44"/>
         </div>
-        <i class="pi pi-chevron-down chev"></i>
       </div>
 
       <div class="p-3 form-border flex items-center justify-between">
@@ -15,7 +14,6 @@
           <span class="badge">ORIGEM</span>
           <Dropdown v-model="local.origem" :options="cityOptions" optionLabel="label"  class="ml-4 w-44"/>
         </div>
-        <i class="pi pi-chevron-down chev"></i>
       </div>
 
       <div class="p-3 form-border flex items-center justify-between">
@@ -33,7 +31,6 @@
           <span class="badge">NAVEGANTES</span>
           <Dropdown v-model="local.navegantes" :options="navOptions" optionLabel="label" placeholder="1" class="ml-4 w-20"/>
         </div>
-        <i class="pi pi-chevron-down chev"></i>
       </div>
 
       <div class="p-3 form-border flex items-center justify-between">
@@ -41,7 +38,6 @@
           <span class="badge">VEÍCULO</span>
           <Dropdown v-model="local.veiculo" :options="vehicleOptions" optionLabel="label" class="ml-4 w-44"/>
         </div>
-        <i class="pi pi-chevron-down chev"></i>
       </div>
 
       <div class="p-3 form-border flex items-center justify-between">
