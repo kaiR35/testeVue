@@ -40,14 +40,14 @@
         </div>
       </div>
 
-      <div class="p-3 form-border flex items-center justify-between">
+      <div class="p-3 form-border flex items-center justify-between gap-2">
         <div class="flex items-center gap-3">
           <span class="badge">DATA DE IDA</span>
         </div>
         <Calendar v-model="local.dataIda" dateFormat="dd/mm/yy" showIcon class="w-40"/>
       </div>
 
-      <div class="p-3 form-border flex items-center justify-between">
+      <div class="p-3 form-border flex items-center justify-between gap-2">
         <div class="flex items-center gap-3">
           <span class="badge">DATA DE VOLTA</span>
         </div>
